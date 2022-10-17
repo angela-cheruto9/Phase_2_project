@@ -81,6 +81,7 @@ For detailed information kindly refer to our Notebook and presentation slides fo
 
 
 
+![image](https://user-images.githubusercontent.com/104419035/196169735-31d36bc7-17e1-4ab5-b5f9-55dbf1b5265a.png)
 
 
 
