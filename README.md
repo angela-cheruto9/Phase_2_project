@@ -63,7 +63,12 @@ Standardization of numerical data
 
 ## Modelling and evaluation
 Assigned variables to X and y (target variable) which is price and performed a train-test-split.
-I then built a linear regression model to predict the price of the houses
+I then built a linear regression model.
+
+## Final regression model
+
+![Screenshot (392)](https://user-images.githubusercontent.com/104419035/196170094-dcdb144b-d021-47cc-96e0-d241df62ecaa.png)
+
 
 ## Conclusion
 
@@ -81,7 +86,7 @@ For detailed information kindly refer to our Notebook and presentation slides fo
 
 
 
-![image](https://user-images.githubusercontent.com/104419035/196169735-31d36bc7-17e1-4ab5-b5f9-55dbf1b5265a.png)
+
 
 
 
