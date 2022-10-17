@@ -42,101 +42,20 @@ Scikit-Learn
 
 ## Data exploration
 
+The ddataset contains 21597 rows and 21 columns. 
+The dataset also contains both continuous and categorical data, several time based columns like yr_built and yr_renovated and  categorical data like the grade, condition.
 
 ## Data preparation
 
-* import necessary libraries*
->import pandas as pd
->>import numpy as np
->>>import matplotlib.pyplot as plt
->>>>import seaborn as sns
->>>>>%matplotlib inline
-
-*load the dataset*
-df = pd.read_csv("kc_house_data.csv")
-df.head(10)
-
+## Data pre-processing
 ## Exploratory data analysis
-### Data cleaning
-*check the number of rows and columnns *
-df.shape
 
-*checkin the datatypes in the dataset*
-df.info()
 
-*checking for unique data in the dataset*
-df.nunique()
 
-*checking why sqft_basement is an object*
-df.sqft_basement.unique()
 
-*dropping the rows that have '?'*
-df = df[df.sqft_basement != '?']
 
-*converting the sqft_basement column from str to float*
-df['sqft_basement'] = df['sqft_basement'].astype('float')
 
-*displaying values in float* 
-pd.set_option('display.float_format', lambda X: '%.5f'% X)
 
-*check the statistic summary of the dataset*
-df.describe()
-
-*descriptive statistics of the dataset*
-df.describe().transpose()
-
-### checking for null values
-*checking for number of null values in each column in the dataset*
-df.isnull().sum().sort_values(ascending =False)
-
-*checking for number of null values in each row *
-df.isnull().sum(axis=1).sort_values(ascending =False)
-
-*checking for percentage of null values in each row *
-df.isnull().sum(axis=1).sort_values(ascending =False)/len(df)*100
-
-### working on columns with null values
-*checking statistic summary of the data in the view column*
-df.view.describe()
-
-*replacing the null values in the view column with the median*
-df.view = df.view.fillna( value = df.view.median())
-
-*checking statistic summary of the data in the waterfront column *
-df.waterfront.describe()
-
-*checking the value_count of properties with a waterfront*
-df.waterfront.value_counts()
-
-* replacing the null values in the waterfront column with the median *
-df.waterfront = df.waterfront.fillna( value = df.waterfront.median())
-
-*checking statistic summary of the data in the yr_renovated column *
-df.yr_renovated.describe()
-
-* replacing the null values in the waterfront column with the median *
-df.yr_renovated = df.yr_renovated.fillna( value = df.yr_renovated.median())
-
-* recheck if there are any missing values *
-df.isnull().sum()
-
-*drop unnecessary columns*
-df.drop('id', axis=1, inplace=True)
-
-*inspecting the null values using a heatmap*
-sns.heatmap(df.isnull(),yticklabels = False ,cbar= False,cmap = 'coolwarm')
-
-## Correlation of features
-*correlation of features*
-corr = df.corr()
-corr
-
-*change correlation to True for positive or negative correlations that are bigger than 0.75 in the correlation matrix*
-abs(df.corr()) > 0.75
-
-*heatmap to show correlation of features*
-plt.figure(figsize =(12,12))
-sns.heatmap(corr,cbar=True,square= True ,fmt = '.1f', annot=True,annot_kws={'size':10},cmap= 'viridis')
 
 ## Visualization
 *Histogram to represent the variables in the dataset *
