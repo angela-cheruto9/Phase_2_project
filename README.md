@@ -77,7 +77,7 @@ I then built a linear regression model to predict the price of the houses
 * final prediction variables include sqft_above,sqft_living15,bathrooms,sqft_basement,bedrooms,floors,view
 
 ## More Information
-For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository]().
+For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository](https://github.com/angela-cheruto9/Phase_2_project).
 
 
 
