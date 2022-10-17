@@ -9,7 +9,36 @@ Build a regression model that will be used to analyze house sales in a northwest
 
 This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names can be found in column_names.md in the same folder. 
 
-## Business problem
+## Defining Experimental design
+
+* Importing the relevant libraries used in the analysis.
+
+* Load and preview images
+
+* Explore the dataset we will use for our project.
+
+* Exploratory Data Analysis (EDA)
+
+* Data Pre-processing
+
+* Modelling and Evaluation
+
+* Challenging the model
+
+* Conclusion
+
+* Recommendations
+
+
+### Libraries
+
+Matplotlib
+
+Seaborn
+
+Scikit-Learn
+
+## Data exploration
 
 
 ## Data preparation
