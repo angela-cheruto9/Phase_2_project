@@ -6,6 +6,7 @@
 ## Overview
 
 Build a regression model that will be used to analyze house sales in a northwestern county.
+
 This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names can be found in column_names.md in the same folder. 
 
 ## Business problem
