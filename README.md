@@ -1,6 +1,6 @@
 # King's county housing
 
-![image](https://user-images.githubusercontent.com/104419035/196160319-42c566b6-c62b-4c64-9eac-9afee4bc9212.png)width="1000" height="600">
+![image](https://user-images.githubusercontent.com/104419035/196160831-41caa804-db38-4543-9594-c00f68a27936.png)
 
 
 ## Overview
