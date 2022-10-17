@@ -1,4 +1,14 @@
-# Phase_2_project
+# King's county housing
+
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhousing&psig=AOvVaw3LM2ntyv4_E__wjsuEf5yE&ust=1666090197921000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJCv7-qL5_oCFQAAAAAdAAAAABAD" width="1000" height="600">
+
+## Overview
+
+Build a regression model that will be used to analyze house sales in a northwestern county.
+This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder in this repo. The description of the column names can be found in column_names.md in the same folder. 
+
+## Business problem
+
 
 ## Data preparation
 
