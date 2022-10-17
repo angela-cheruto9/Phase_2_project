@@ -51,6 +51,10 @@ Below is a visualization summary of the variables present in the dataset.
 
 ![Screenshot (391)](https://user-images.githubusercontent.com/104419035/196168922-27540604-b7a9-4f13-8abf-d0c8454bc05d.png)
 
+* Price, sqft_living,sqft_above,sqft_living which are continuous variables and seem to be normally distributed.
+* Most houses have one floor, 3 bedrooms, 2 bathrooms, and a condition of 3
+* The number of houses built seems to increase over time with the 2000's having the most number of houses built.
+
 ## Data preparation
 
 Checking and working on null values
