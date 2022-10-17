@@ -42,8 +42,14 @@ Scikit-Learn
 
 ## Data exploration
 
-The ddataset contains 21597 rows and 21 columns. 
+The dataset contains 21597 rows and 21 columns. 
 The dataset also contains both continuous and categorical data, several time based columns like yr_built and yr_renovated and  categorical data like the grade, condition.
+
+Below is a visualization summary of the variables present in the dataset.
+
+![Screenshot (390)](https://user-images.githubusercontent.com/104419035/196168709-d3c9000a-3b27-479b-9628-281feb8d9cad.png)
+
+![Screenshot (391)](https://user-images.githubusercontent.com/104419035/196168922-27540604-b7a9-4f13-8abf-d0c8454bc05d.png)
 
 ## Data preparation
 
@@ -69,6 +75,9 @@ I then built a linear regression model to predict the price of the houses
 *  There was no negative relationship betweeen predictors and target variable
 *  The final model hads predictors with a p_value of less than 0.05 and an r_squared value of 0.7
 * final prediction variables include sqft_above,sqft_living15,bathrooms,sqft_basement,bedrooms,floors,view
+
+## More Information
+For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository]().
 
 
 
